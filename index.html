@@ -17,6 +17,8 @@
       rel="stylesheet"
     />
     <title>Document</title>
+<script src="accordion.js"></script>      
+
   </head>
 
   <header>
@@ -78,7 +80,7 @@
 
     <div class="d-flex flex-column align-items-left services">
       <div
-        class="d-flex flex-row justify-content-start align-items-center flex-nowrap services-flex"
+        class="d-flex flex-row justify-content-start align-items-center services-flex"
       >
         <div class="services-header-green">
           <h2>Services</h2>
@@ -89,175 +91,179 @@
           help businesses grow and succeed online. These services include:
         </p>
       </div>
-    </div>
 
-    <div
-      class="container-fluid d-flex justify-content-center align-items-center flex-column services-container"
-    >
-      <div class="row">
-        <div class="col-md-6">
-          <div class="d-flex flex-row justify-content-evenly service-info gray">
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center flex-column services-container"
+      >
+        <div class="row">
+          <div class="col-md-6">
             <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
+              class="d-flex flex-row justify-content-evenly service-info gray"
             >
-              <div class="d-flex flex-column service-info-header green">
-                <h3 class="mb-0">Search engine</h3>
-                <h3 class="mb-0">optimization</h3>
-              </div>
               <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                class="d-flex flex-column justify-content-start align-items-start left-col"
               >
-                <a href="#"
-                  ><img src="assets/img/learnmore-green.svg" alt=""
-                /></a>
-                <p>Learn more</p>
+                <div class="d-flex flex-column service-info-header green">
+                  <h3 class="mb-0">Search engine</h3>
+                  <h3 class="mb-0">optimization</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"
+                    ><img src="assets/img/learnmore-green.svg" alt=""
+                  /></a>
+                  <p>Learn more</p>
+                </div>
+              </div>
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-magnifier-web-search-with-elements 2.svg"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-magnifier-web-search-with-elements 2.svg"
-                alt=""
-              />
+          </div>
+          <div class="col-md-6">
+            <div
+              class="d-flex flex-row justify-content-evenly service-info green"
+            >
+              <div
+                class="d-flex flex-column justify-content-start align-items-start left-col"
+              >
+                <div class="d-flex flex-column service-info-header white">
+                  <h3 class="mb-0">Pay-per-click</h3>
+                  <h3 class="mb-0">advertising</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"
+                    ><img src="assets/img/learnmore-green.svg" alt=""
+                  /></a>
+                  <p>Learn more</p>
+                </div>
+              </div>
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-selecting-a-value-in-the-browser-window 1.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div
-            class="d-flex flex-row justify-content-evenly service-info green"
-          >
-            <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
-            >
-              <div class="d-flex flex-column service-info-header white">
-                <h3 class="mb-0">Pay-per-click</h3>
-                <h3 class="mb-0">advertising</h3>
-              </div>
-              <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
-              >
-                <a href="#"
-                  ><img src="assets/img/learnmore-green.svg" alt=""
-                /></a>
-                <p>Learn more</p>
-              </div>
-            </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-selecting-a-value-in-the-browser-window 1.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div
-            class="d-flex flex-row justify-content-evenly service-info black"
-          >
+        <div class="row">
+          <div class="col-md-6">
             <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
+              class="d-flex flex-row justify-content-evenly service-info black"
             >
-              <div class="d-flex flex-column service-info-header white">
-                <h3 class="mb-0">Social Media</h3>
-                <h3 class="mb-0">Marketing</h3>
-              </div>
               <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                class="d-flex flex-column justify-content-start align-items-start left-col"
               >
-                <a href="#"><img src="assets/img/learnmore.svg" alt="" /></a>
-                <p class="text-white">Learn more</p>
+                <div class="d-flex flex-column service-info-header white">
+                  <h3 class="mb-0">Social Media</h3>
+                  <h3 class="mb-0">Marketing</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"><img src="assets/img/learnmore.svg" alt="" /></a>
+                  <p class="text-white">Learn more</p>
+                </div>
+              </div>
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg"
-                alt=""
-              />
+          </div>
+          <div class="col-md-6">
+            <div
+              class="d-flex flex-row justify-content-evenly service-info gray"
+            >
+              <div
+                class="d-flex flex-column justify-content-start align-items-start left-col"
+              >
+                <div class="d-flex flex-column service-info-header green">
+                  <h3 class="mb-0">Email</h3>
+                  <h3 class="mb-0">Marketing</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"
+                    ><img src="assets/img/learnmore-green.svg" alt=""
+                  /></a>
+                  <p>Learn more</p>
+                </div>
+              </div>
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-sending-messages-from-one-place-to-another 1.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="d-flex flex-row justify-content-evenly service-info gray">
-            <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
-            >
-              <div class="d-flex flex-column service-info-header green">
-                <h3 class="mb-0">Email</h3>
-                <h3 class="mb-0">Marketing</h3>
-              </div>
-              <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
-              >
-                <a href="#"
-                  ><img src="assets/img/learnmore-green.svg" alt=""
-                /></a>
-                <p>Learn more</p>
-              </div>
-            </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-sending-messages-from-one-place-to-another 1.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div
-            class="d-flex flex-row justify-content-evenly service-info green"
-          >
+        <div class="row">
+          <div class="col-md-6">
             <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
+              class="d-flex flex-row justify-content-evenly service-info green"
             >
-              <div class="d-flex flex-column service-info-header white">
-                <h3 class="mb-0">Content</h3>
-                <h3 class="mb-0">Creation</h3>
-              </div>
               <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                class="d-flex flex-column justify-content-start align-items-start left-col"
               >
-                <a href="#"
-                  ><img src="assets/img/learnmore-green.svg" alt=""
-                /></a>
-                <p>Learn more</p>
+                <div class="d-flex flex-column service-info-header white">
+                  <h3 class="mb-0">Content</h3>
+                  <h3 class="mb-0">Creation</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"
+                    ><img src="assets/img/learnmore-green.svg" alt=""
+                  /></a>
+                  <p>Learn more</p>
+                </div>
               </div>
-            </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-many-browser-windows-with-different-information 1.svg"
-                alt=""
-              />
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-many-browser-windows-with-different-information 1.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div
-            class="d-flex flex-row justify-content-evenly service-info black"
-          >
+          <div class="col-md-6">
             <div
-              class="d-flex flex-column justify-content-start align-items-start left-col"
+              class="d-flex flex-row justify-content-evenly service-info black"
             >
-              <div class="d-flex flex-column service-info-header green">
-                <h3 class="mb-0">Analytics and</h3>
-                <h3 class="mb-0">Tracking</h3>
-              </div>
               <div
-                class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                class="d-flex flex-column justify-content-start align-items-start left-col"
               >
-                <a href="#"><img src="assets/img/learnmore.svg" alt="" /></a>
-                <p class="text-white">Learn more</p>
+                <div class="d-flex flex-column service-info-header green">
+                  <h3 class="mb-0">Analytics and</h3>
+                  <h3 class="mb-0">Tracking</h3>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-start align-items-center learn-more-info"
+                >
+                  <a href="#"><img src="assets/img/learnmore.svg" alt="" /></a>
+                  <p class="text-white">Learn more</p>
+                </div>
               </div>
-            </div>
-            <div class="service-info-img">
-              <img
-                src="assets/img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg"
-                alt=""
-              />
+              <div class="service-info-img">
+                <img
+                  src="assets/img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -268,7 +274,7 @@
       <div class="row proposal-wrapper">
         <div
           class="col-md-6 d-flex flex-column align-items-start justify-content-center"
-          style="gap: 26px;"
+          style="gap: 26px"
         >
           <h3>Let’s make things happen</h3>
 
@@ -282,10 +288,185 @@
           >
         </div>
 
-        <div class="col-md-6  d-flex justify-content-center">
+        <div class="col-md-6 d-flex justify-content-center">
           <img src="assets/img/Illustration (1).svg" alt="" />
         </div>
       </div>
     </div>
+
+    <div class="d-flex flex-column align-items-left case-studies">
+      <div
+        class="d-flex flex-row justify-content-start align-items-center services-flex"
+      >
+        <div class="services-header-green">
+          <h2>Case Studies</h2>
+        </div>
+        <p style="margin: 0">
+          Explore Real-Life Examples of Our Proven Digital Marketing
+          <br />
+          Success through Our Case Studies
+        </p>
+      </div>
+
+      <div
+        class="d-flex flex-row align-items-center justify-content-center case-studies-info"
+      >
+        <div
+          class="d-flex flex-column align-items-start justify-content-center case-learn"
+        >
+          <p>
+            For a local restaurant, we <br />
+            implemented a targeted PPC <br />
+            campaign that resulted in a 50% <br />
+            increase in website traffic and a <br />
+            25% increase in sales.
+          </p>
+
+          <a
+            href="#"
+            class="d-flex flex-row align-items-center case-learn-more"
+          >
+            <p>Learn More</p>
+            <img src="assets/img/learnmore-green.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="vl"></div>
+
+        <div
+          class="d-flex flex-column align-items-start justify-content-center case-learn"
+        >
+          <p>
+            For a B2B software company, we <br />developed an SEO strategy that
+            <br />
+            resulted in a first page ranking <br />
+            for key keywords and a 200% <br />
+            increase in organic traffic.
+          </p>
+
+          <a
+            href="#"
+            class="d-flex flex-row align-items-center case-learn-more"
+          >
+            <p>Learn More</p>
+            <img src="assets/img/learnmore-green.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="vl"></div>
+
+        <div
+          class="d-flex flex-column align-items-start justify-content-center case-learn"
+        >
+          <p>
+            For a national retail chain, we <br />
+            created a social media marketing <br />
+            campaign that increased followers by <br />
+            25% and generated a 20% increase <br />
+            in online sales.
+          </p>
+
+          <a
+            href="#"
+            class="d-flex flex-row align-items-center case-learn-more"
+          >
+            <p>Learn More</p>
+            <img src="assets/img/learnmore-green.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex flex-column align-items-left working-process">
+
+      <div
+        class="d-flex flex-row justify-content-start align-items-center services-flex"
+      >
+        <div class="services-header-green">
+          <h2>Our Working Process </h2>
+        </div>
+        <p style="margin: 0">
+          Step-by-Step Guide to Achieving
+          <br />
+          Your Business Goals
+        </p>
+      </div>
+
+      
+
+      <div class="accordion-wrapper">
+        <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>01</h2> <h3>Consultation</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div> <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>02</h2> <h3>Research and Strategy Development</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div> <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>03</h2> <h3>Implementation</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div> <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>04</h2> <h3>Monitoring and Optimization</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div> <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>05</h2> <h3>Reporting and Communication</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div> <div class="accordion">
+          <div class="accordion-label">
+            <div class="d-flex  flex-row align-items-center" style="gap: 30px;">
+              <h2>06</h2> <h3>Continual Improvement</h3>
+            </div></div>
+          <div class="d-flex flex-column accordion-content">
+            <hr>
+            <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+
+          </div>
+
+        </div>
+    </div>   
+       
+
+
+    
   </body>
 </html>

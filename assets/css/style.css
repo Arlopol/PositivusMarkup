@@ -1,187 +1,278 @@
-header{
-    font-family: "Space Grotesk", sans-serif;
-
+header {
+  font-family: "Space Grotesk", sans-serif;
 }
 
-body, footer{
-    font-family: "Space Grotesk", sans-serif;
-    padding: 0 100px;
+body,
+footer {
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0 100px;
 }
 
-h1{
-    font-size: 60px;
+h1 {
+  font-size: 60px;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
-h3{
-    font-size: 30px;
+h3 {
+  font-size: 30px;
 }
 
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: #191A23;
-    font-size: 20px;
+a {
+  text-decoration: none;
+  color: #191a23;
+  font-size: 20px;
 }
 
-a:hover{
-    color: gray;
+a:hover {
+  color: gray;
 }
 
-header{
-    margin-top: 2%;
+header {
+  margin-top: 2%;
 }
 
-.d-flex{
-    flex-wrap: wrap;
-
+.d-flex {
+  flex-wrap: wrap;
 }
-.header-wrapper{
-    align-items: center;
-}
-
-.btn-primary.request-quote{
-    border: 1px solid #191A23;
-    background-color: white;
-    color: black;
-    border-radius: 14px;
-    padding: 20px 35px 20px 35px !important;
-    font-size: 20px;
-
-    /* padding-bottom: 10px !important; */
+.header-wrapper {
+  align-items: center;
 }
 
-.navigation-wrapper{
+.btn-primary.request-quote {
+  border: 1px solid #191a23;
+  background-color: white;
+  color: black;
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px !important;
+  font-size: 20px;
+
+  /* padding-bottom: 10px !important; */
+}
+
+.navigation-wrapper {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.consulation {
+  padding: 70px 0 70px 0;
+}
+
+.consulation-1 {
+  gap: 40px;
+}
+
+.btn-primary.book-consulation {
+  border: none;
+  background-color: #191a23;
+  color: white;
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px !important;
+  font-size: 20px;
+  width: 40%;
+
+  /* padding-bottom: 10px !important; */
+}
+
+.sponsors {
+  padding: 70px 0 0 0;
+}
+
+.services-container {
+  padding: 0;
+}
+.services-container .col-md-6 {
+  padding: 0 20px 0 20px;
+}
+.services-container .row {
+  width: 100%;
+}
+.services-flex {
+  gap: 40px;
+}
+
+.service-info {
+  padding: 50px 50px 50px 50px;
+  border-radius: 14px;
+  border: 1px solid #191a23;
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.service-info.gray {
+  background-color: #f3f3f3;
+}
+
+.service-info.green {
+  background-color: #b9ff66;
+}
+
+.service-info.black {
+  background-color: #191a23;
+}
+
+.services-header-green {
+  background-color: #b9ff66;
+  padding: 0px 10px 0px 10px;
+  border-radius: 14px;
+}
+
+.services-container {
+  gap: 40px;
+}
+
+.service-info-header.white h3 {
+  background-color: #ffffff;
+  border-radius: 14px;
+}
+
+.service-info-header.green h3 {
+  background-color: #b9ff66;
+  border-radius: 14px;
+}
+
+.learn-more-info {
+  gap: 20px;
+}
+
+.services {
+  padding-top: 150px;
+  gap: 50px;
+}
+
+.left-col {
+  gap: 93px;
+}
+
+.proposal {
+  margin-top: 70px;
+  padding: 30px;
+}
+
+.proposal .row {
+}
+
+.proposal-wrapper {
+  border-radius: 28px;
+  padding: 0px 20px 0px 20px;
+  background-color: #f3f3f3;
+  height: 380px;
+}
+
+.case-studies {
+  padding-top: 150px;
+  gap: 50px;
+}
+
+.case-studies-info {
+  background-color: #191a23;
+  padding: 70px 60px 70px 60px;
+  gap: 64px;
+  border-radius: 45px;
+}
+
+.case-learn {
+  color: white;
+}
+
+.case-learn-more {
+  color: #b9ff66;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 168px;
+}
+
+.working-process{
+    padding-top: 150px;
+    gap: 50px;
+}
+
+
+
+
+
+.accordion-wrapper {
     display: flex;
-    gap: 35px;
-    align-items: center;
-}
-
-
-.consulation{
-
-    padding: 70px 0 70px 0;
-}
-
-.consulation-1{
-    gap:40px;
-}
-
-.btn-primary.book-consulation{
-    border: none;
-    background-color: #191A23;
-    color: white;
-    border-radius: 14px;
-    padding: 20px 35px 20px 35px !important;
-    font-size: 20px;
-    width: 40%;
-
-    /* padding-bottom: 10px !important; */
-}
-
-
-.sponsors{
-    padding: 70px 0 0 0;
-}
-
-
-.services-container{
-    padding: 0;
-}
-.services-container .col-md-6{
-    padding: 0 20px 0 20px;
-}
-.services-container .row{
-    width: 100%;
-}
-.services-flex{
-    gap: 40px;
-}
-
-
-.service-info{
-    padding: 50px 50px 50px 50px;
-    border-radius: 14px;    
-    border: 1px solid #191A23;
-    box-shadow: 0 5px 0 0 #191A23;
-}
-
-.service-info.gray{
-    background-color: #F3F3F3;
-}
-
-.service-info.green{
-    background-color: #B9FF66;
-}
-
-.service-info.black{
-    background-color: #191A23;
-}
-
-.services-header-green{
-    background-color: #B9FF66;
-    padding: 0px 10px 0px 10px;
-    border-radius: 14px;
-}
-
-.services-container{
-    gap: 40px;
-}
-
-
-
-.service-info-header.white h3{
-    background-color: #ffffff;
-    border-radius: 14px;
-
-}
-
-.service-info-header.green h3{
-    background-color: #B9FF66;
-    border-radius: 14px;
-
-}
-
-.learn-more-info{
-    gap: 20px;
-}
-
-.learn-more-info p{
-    margin: 0;
-}
-
-.services-header p{
-    padding: 0;
-    margin: 0;
-}
-
-.services{
-    padding: 150px 0 50px 0;
-}
-
-.left-col{
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+  }
+  
+  .accordion {
+      box-shadow: 0 5px 0 0 #191a23;
+      border-radius: 45px;
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
     
-    gap: 93px;
-}
-
-.proposal{
-    margin-top: 70px;
-    padding: 30px;
-
-}
-
-.proposal-wrapper{
-    border-radius: 28px;
-    padding: 0px 20px 0px 20px;
-    background-color: #F3F3F3;
-    height: 380px;
-}
+    .accordion-label {
+        padding: 41px 60px 41px 60px;
+    background: #f3f3f3;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 
+  .accordion-label:hover {
+      background: #191a23;
+      color: white;
+    }
+    
+    .accordion-label::after {
+        content: "\002B";
+        transform: rotate(0deg);
+        transition: transform 0.3s;
+    }
+    
+    .accordion.open .accordion-label::after {
 
+        content: "\2212"; 
+    }
+    
+    .accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background: #b9ff66;
+        padding: 0 16px;
+    }
+    
+    .accordion-content hr{
+      margin: 0;
+    }
+    
+  .accordion.active .accordion-label{
+    padding: 41px 60px 0px 60px;
+
+    background: #b9ff66;
+
+
+  }
+  .accordion.active .accordion-content {
+    overflow: visible;
+    padding: 30px 60px 41px 60px;
+
+  }
+  
+  
+  .accordion-content p {
+    margin: 0;
+    padding: 16px 0;
+    font-size: 18px;
+    color: #191a23;
+  }
+  
