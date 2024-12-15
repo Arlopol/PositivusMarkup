@@ -192,87 +192,194 @@ header {
   height: 168px;
 }
 
-.working-process{
-    padding-top: 150px;
-    gap: 50px;
+.working-process {
+  padding-top: 150px;
+  gap: 50px;
+}
+
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.accordion {
+  box-shadow: 0 5px 0 0 #191a23;
+  border-radius: 45px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.accordion-label {
+  padding: 41px 60px 41px 60px;
+  background: #f3f3f3;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-label:hover {
+  background: #191a23;
+  color: white;
+}
+
+.accordion-label::after {
+  content: "\002B";
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.accordion.open .accordion-label::after {
+  content: "\2212";
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #b9ff66;
+  padding: 0 16px;
+}
+
+.accordion-content hr {
+  margin: 0;
+}
+
+.accordion.active .accordion-label {
+  padding: 41px 60px 0px 60px;
+
+  background: #b9ff66;
+}
+.accordion.active .accordion-content {
+  overflow: visible;
+  padding: 30px 60px 41px 60px;
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 18px;
+  color: #191a23;
+}
+
+.team {
+  padding-top: 150px;
+
+  gap: 50px;
+}
+
+.team-member {
+  padding: 40px 35px 40px 35px;
+  border-radius: 45px;
+  gap: 28px;
+  border: 1px solid #191a23;
+
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.testimonals {
+  padding-top: 75px;
+  gap: 50px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper-all {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 70px 0 70px 0;
+  border-radius: 45px;
+  background-color: #191a23;
+  color: white;
+}
+
+.swiper-navigate{
+  padding-top: 124px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-info {
+  gap: 20px;
+}
+
+.swiper-message {
+  padding: 40px;
+  border-radius: 45px;
+  border: 1px solid #b9ff66;
 }
 
 
+.swiper-header {
+  padding: 0px 40px 0px 40px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.swiper-button-next,
+.swiper-button-prev {
+  position: unset;
+  color:#b9ff66 ;
+}
 
-.accordion-wrapper {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    gap: 30px;
-  }
+.swiper-pagination-bullet-active{
+  background: #b9ff66;
   
-  .accordion {
-      box-shadow: 0 5px 0 0 #191a23;
-      border-radius: 45px;
-      margin-bottom: 8px;
-      overflow: hidden;
-    }
-    
-    .accordion-label {
-        padding: 41px 60px 41px 60px;
-    background: #f3f3f3;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+}
 
 
-  .accordion-label:hover {
-      background: #191a23;
-      color: white;
-    }
-    
-    .accordion-label::after {
-        content: "\002B";
-        transform: rotate(0deg);
-        transition: transform 0.3s;
-    }
-    
-    .accordion.open .accordion-label::after {
+.contact-us{
+  padding-top: 150px;
+  gap: 50px;  
+}
 
-        content: "\2212"; 
-    }
-    
-    .accordion-content {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-        background: #b9ff66;
-        padding: 0 16px;
-    }
-    
-    .accordion-content hr{
-      margin: 0;
-    }
-    
-  .accordion.active .accordion-label{
-    padding: 41px 60px 0px 60px;
-
-    background: #b9ff66;
+.contact-wrappepr{
+  padding: 60px 100px 60px 100px;
+  background: #f3f3f3;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
 
 
-  }
-  .accordion.active .accordion-content {
-    overflow: visible;
-    padding: 30px 60px 41px 60px;
+.contact-wrapper form {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
 
-  }
-  
-  
-  .accordion-content p {
-    margin: 0;
-    padding: 16px 0;
-    font-size: 18px;
-    color: #191a23;
-  }
-  
+.contact-wrapper form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-wrapper input[type="text"],
+.contact-wrapper input[type="email"],
+.contact-wrapper textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
