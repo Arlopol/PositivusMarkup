@@ -422,9 +422,9 @@ header {
   min-height: 200px;
 }
 
-footer{
+footer {
   gap: 50px;
-  background: #191a23 ;
+  background: #191a23;
   margin-top: 150px;
   margin-bottom: 0;
   padding: 55px 50px 55px 50px;
@@ -432,74 +432,71 @@ footer{
   border-top-right-radius: 45px;
 }
 
-.footer-header{
+.footer-header {
   gap: 155px;
 }
 
-.footer-navigate{
+.footer-navigate {
   gap: 40px;
 }
 
-.footer-social{
+.footer-social {
   gap: 20px;
 }
 
-.footer-navigate a{
+.footer-navigate a {
   text-decoration: underline;
   color: white;
 }
 
-.footer-first-wrapper{
+.footer-first-wrapper {
   gap: 66px;
 }
 
-.footer-contact-wrapper{
+.footer-contact-wrapper {
 }
 
-
-.footer-contact-info{
+.footer-contact-info {
   color: white;
   gap: 20px;
-
 }
 
-.footer-contact-header{
+.footer-contact-header {
   background-color: #b9ff66;
-  color:#191a23;
-  border: 7px;
+  color: #191a23;
+  border-radius: 7px;
 }
 
-.footer-subscribe{
+.footer-subscribe {
   padding: 58px 40px 58px 40px;
-  background-color: #292A32;
+  background-color: #292a32;
   border-radius: 14px;
   gap: 20px;
   width: 50%;
 }
 
-.subscribe-btn{
-    border: none;
-    background-color: #b9ff66;
-    color:  black;
-    border-radius: 14px;
-    padding: 20px 35px 20px 35px !important;
-    font-size: 20px;
+.subscribe-btn {
+  border: none;
+  background-color: #b9ff66;
+  color: black;
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px !important;
+  font-size: 20px;
 }
 
-.footer-subscribe input[type="email"]{
+.footer-subscribe input[type="email"] {
   padding: 22px 35px 22px 35px;
   border-color: white;
   color: white;
   border-radius: 14px;
   background-color: transparent;
-  
 }
 
-.footer-foot{
-  color: white
+.footer-foot {
+  color: white;
 }
 
-.footer-foot a{
+.footer-foot a {
   color: white;
 
   text-decoration: underline;
