@@ -92,6 +92,7 @@ header {
 }
 .services-container .col-md-6 {
   padding: 0 20px 0 20px;
+  margin-top: 40px;
 }
 .services-container .row {
   width: 100%;
@@ -194,6 +195,7 @@ header {
 
 .working-process {
   padding-top: 150px;
+  align-content: center;
   gap: 50px;
 }
 
@@ -270,6 +272,12 @@ header {
   padding-top: 150px;
 
   gap: 50px;
+}
+
+.team-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 .team-member {
@@ -500,4 +508,163 @@ footer {
   color: white;
 
   text-decoration: underline;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.hamburger-menu div {
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+  .row {
+    --bs-gutter-x: 0px;
+  }
+
+  body,
+  footer {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 43px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .consulation {
+    text-align: center;
+  }
+  .consulation div {
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .navigation-wrapper.active {
+    visibility: visible;
+    display: flex;
+    width: 100%;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .btn-primary.book-consulation {
+    width: 100%;
+  }
+
+  .team-grid-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-img {
+    display: none !important;
+  }
+
+  .contact-wrapper {
+    padding: 75px 30px 75px 30px;
+    grid-template-columns: 100% 0%;
+  }
+
+  .working-process {
+  }
+
+  footer {
+    flex-wrap: nowrap;
+  }
+
+  .footer-first-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-contact-wrapper {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer-header {
+    padding-top: 20px;
+  }
+
+  .footer-header,
+  .footer-navigate {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-subscribe {
+    width: 100%;
+  }
+
+  .footer-contact-info {
+    width: 100%;
+    align-content: center;
+  }
+
+  .services-flex {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .service-info-img {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .service-info-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .proposal-img {
+    display: none !important;
+  }
+
+  
 }

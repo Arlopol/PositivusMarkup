@@ -1,0 +1,84 @@
+hr{
+    opacity: 1;
+}
+
+hr:not([size]){
+  height: 3px;  
+}
+
+.this-html {
+  background-color: #b9ff66;
+  border-radius: 14px;
+}
+
+.pricing {
+  padding-top: 70px;
+  gap: 70px;
+}
+
+.price-info {
+  padding: 10px 10px 50px 10px; 
+    gap: 40px;
+  border-radius: 14px;
+  border: 1px solid #191a23;
+
+  box-shadow: 0 5px 0 0 #191a23;
+}
+
+.get-request-buttons {
+  gap: 20px;
+}
+
+.get-button,
+.request-button {
+  width: 100%;
+
+  border: none;
+  border-radius: 14px;
+  padding: 20px 35px 20px 35px !important;
+  font-size: 20px;
+}
+
+.get-button.black {
+  background-color: black;
+  color: white;
+}
+.get-button.green {
+  background-color: #b9ff66;
+  color: black;
+}
+
+
+.request-button.white{
+    background-color: white;
+    color: black;
+    border: 1px solid #191a23;
+}
+
+.request-button.black{
+    background-color: black;
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.price-info-text-wrapper{
+    gap: 20px;
+}
+
+.price-info-text{
+    gap: 20px;
+}
+
+.price-info.pro-plan{
+  background-color: #191a23;
+  color: white;
+}
+
+.popular-text{
+  background-color: #b9ff66;
+  color: #191a23;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 0;
+}
+

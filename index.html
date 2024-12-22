@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/img/Icon.svg">
+    <link rel="icon" href="assets/img/Icon.svg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -38,9 +38,17 @@
         <div class="p-2 bd-highlight"><a href="">About Us</a></div>
         <div class="p-2 bd-highlight"><a href="">Services</a></div>
         <div class="p-2 bd-highlight"><a href="">Use Cases</a></div>
-        <div class="p-2 bd-highlight"><a href="">Pricing</a></div>
+        <div class="p-2 bd-highlight"><a href="pricing.html">Pricing</a></div>
         <div class="p-2 bd-highlight"><a href="">Blog</a></div>
         <a href="" class="btn btn-primary request-quote">Request a Quote</a>
+      </div>
+
+      <script src="toggle.js"></script>
+
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   </header>
@@ -295,7 +303,7 @@
           >
         </div>
 
-        <div class="col-md-6 d-flex justify-content-center">
+        <div class="col-md-6 d-flex justify-content-center proposal-img">
           <img src="assets/img/Illustration (1).svg" alt="" />
         </div>
       </div>
@@ -518,10 +526,7 @@
         </p>
       </div>
 
-      <div
-        class="container-fluid team-grid-wrapper"
-        style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px"
-      >
+      <div class="container-fluid team-grid-wrapper">
         <div class="d-flex flex-column team-member">
           <div class="d-flex flex-row justify-content-evenly member-info">
             <img src="assets/img/Picture.png" alt="" />
